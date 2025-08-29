@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.main {
+  flex: 2;
+  padding: 1rem;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  margin-bottom: 1rem;
+}
+
+.text-display {
+  white-space: pre-wrap;
+}
+
+.highlight {
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.sidebar {
+  flex: 1;
+  background: #f8f8f8;
+  padding: 1rem;
+  border-left: 1px solid #ddd;
+  overflow-y: auto;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.score {
+  font-size: 0.85rem;
+  color: #666;
+}
